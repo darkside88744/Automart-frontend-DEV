@@ -1,0 +1,16 @@
+/* src/index.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* This prevents ANY element from pushing the page to the right */
+  overflow-x: hidden; 
+  /* Fixes issues where w-screen includes the scrollbar width */
+  position: relative;
+}
+
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}

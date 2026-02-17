@@ -1,0 +1,22 @@
+# Dependencies (The biggest folder - MUST IGNORE)
+node_modules/
+
+# Production build output
+dist/
+build/
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+
+# Editor settings
+.vscode/
+.idea/
